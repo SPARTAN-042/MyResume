@@ -1,3 +1,3 @@
 module.exports = {
-  base: "/My-Resume/",
+  base: "/MyResume/",
 };
