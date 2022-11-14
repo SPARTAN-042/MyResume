@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/MyResume/assets/apple-touch-icon.741fbd29.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFe0lEQVRYR82XCWxVVRCGv1sKtSCrbEVkJ0iESFnDKiVGoIAGULSCiA1KFIVECCBJiUtICwoSo4mKgBIKKBIEV0ABZQdBDIuEHWXTsoqyPeD6T0+f7/V1ec+mJE5y23vbM3P+Wf6ZczxilfF+ZaqQShw98GkltQZ6quSpn9fvI3js0LOKm3zFBO9CLKa9qIum+k1lcILWpelJjLreLbisZ4HAZjHO21+cTtEApvuJXOU1eTRKBsrGuHHksoCi9RYJZPCiZ6AKSOEAMv0mWrlEm7co4cb51Tx2KYr9eck7EGmvIIDJfivKsEILa5TK5iEjOYpGT4H4KdxufgDmuceGW7B5cE8D0Sk8EiEAlvMAW7SgdMJedPh2U452wZoIAcj035D3Y4oLe92K0LMhtKkN9m6y5zR8uAv2nik+YfFxkNoIuteDHvVZeW9N8cPzdjgAjmq7C6t2W/BQUxjVBu6Tcpz+cO4KrDsG+85C1dtgyD0yPB82nigcRLe6MLM3NKkK87TL3wF4NpnDAtDIAcjyZ+lneqR6VynOuB9a13L/2awNpm6Gz1XLgZtQRtqzU2GokjZuNby+pSCAp1rC+73gjEiYtgyO/gnrh4Dn8WPtCl47D+twVTkp1X+bTEIZbZQCL7TOXUjOJRj9nTrLntAG1eR5dj/opbAamFazlY6INAwTsFkCeOIvSFkA8bK14lEor67SYS6XD54nySPTT1PuFUAn1QVj2UDoeKf73iSvBy5xRkysBmqUh8ndoF4l8H14biW8m49c0KcxfDYALl6DzvOgpnQW94ebWt/vU0XTXIbBHlP8mar84fZlXq15HFrmdYDlh2GANr+snJnBse2hYoK8relqwXI54htFIiwyZidZKftBdhLlaZ9F0PwOmNIdvj4EI9Vhjuc5I8c/8JT/rdJpa/m08KhCc+XbI0K6GK5chy6qhbWDQ+E3L5bsU97XwCEbQ2FS53Z5N9Sx5JO9YOm8JKBvb4cNx/OvlePbDECORX5iRxdWk5//gK7ZLnxBGXS3Qqm0/HYRlmq87D8XYUyfifHwvTxvl+RS11ehvnAVrqtGChWfMwYgINTxB0Y4A2dVrW0+0myNaZiGzBqdsh9UpTd3mybPgcPRbdzIBfBKF+IndXbGBi2FRQpdYVKrAtTWYxGKlIxO8GrX6DYi9HIB5Gx6guod6rgiSVXRRIoVnPH5GR1DUsSXS6qLcHlE6flY3htl31GunxcrYpK8FGw9MZK2SSqe9nNhq6NHrlhYrfrNs2bVXF1s/z2/aQO+WkcVS996dcceC+HajZi2t0UqQtFwZzrDy6lXN5vpFK1RWC5Ht3WUtEbzsOi4+ldQD6dhZVWteG2b2hrjuBXamFVuNpxS4zqgIjUGRZFZnuZA2pRuzLcqn65W2lmU6y2vK5VzqsZ1o9xdajrGAhsqsUhAUVgn2k1a6+ZGEaJGlOVXTqrAyW3DSLQ0BEVUZ81R1+0aa4gE5aoMWx8w702sx9twso4YJ3Dl9fdq6qbGfxOLjNXEezsKQLAjmlqxiYaRqjvdhoo1kmPi+hcH4TFFJUPssOFjUbBGYhNxmuZEJXVEY8vT6oRGu3AxowaivsDbBLTxbVNwp3WckMzRyTm92HFsY9Zy/KZ6ZWMdwAfr24pxo4C8vF6dU626hBLQ+G/BRG9f1ANJXx1Pn1RkbE4YAxb+otI9VcJtg2oe0xjvjbXP/9GRzODc+kPpaZ07O5ERuqwUPJZn+smKy3LBKe1j+WlNvweKP5YHc2SRiNPFpPROyLvlef9wz0PlUFQ9ldbVzNPVrOx/vZqFgyr55XShqJZlVCuOM9Fvx0FtdUy99lF9pCg1yXoa6N1dz33O6/2I3qzfaSLwZazX838AGJPG82tIzhMAAAAASUVORK5CYII=">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMElEQVQ4T62TW0hUURSGv212vJBIZheUIpDGjKHpRkmFlAQJ9aBSDxn6UjlGD0FFWBDhS4nBQE82joFPBRWlEBVEViJdCLxkQk4RVvhgioGSNaMzu7XZY42N9FIL9jlnnb3Xv9b6178Vf1qDXkcEL4pi2VoZ2x4Uv12Wn9OqJz5E/XJ8Oo0wl8U/LOv3/9kJtLjNOBznhPputuxBG/xAvooSKpr7R4eAlBgQC1Cvm+R5ZOZsyjzYkgO5C6BvBN6MzkbJToNKN9d8xXgVpucoXaaazBSoLYQDBdD2Dh5/gnPboOou9MdAqj1QsQZ6vkhGD8cUF3WjNFJTKBlvlkL3sJBwHxZJlrrtsHYJbGiBySk4uh7250NLn4C6obyNK0rKH9i0DNeTCrjxFk61Q2s5eJZKBR/BK8wMT8KePAiUwNXXFsz3CkIRgsq5pEP9h3Def4W9tyAiPG/NhVHhODhme3dnQ8dBKLst789gRhGzsNp3R4f8u3FWN8OIZDJW5oJHgzAehsXp8LJSZieZLzxPGElY1XXqgSSF63ynLdOQGOiFZ0MSLDw07AQnSfpthaEJiMalF7ig2nVdN9bvoCZHRpaaDGM/ICsVMhxIlsDxEExHIX2+9D4NZ5+Cf0aLypAoY8zLpGtFhhXVyc22z9JVcO+DSOSFBTC2UIDzs6w2vk0JFZqNCUIqWg5GKA+Fgwnh4C8WoFZV/ycpmzT/dJni6zTS1nKd9RzXOUoTZ1R3/PGfmlvAPJj9VbUAAAAASUVORK5CYII=">
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     
+    <title> Clint Le Grange | CV</title>
+    <link rel="stylesheet" href="/MyResume/assets/index.9dbb4bbf.css">
+  </head>
+  <body class="font-sans antialiased w-full">
+    <div class="container mx-auto max-w-screen-xl">
+      <main
+        id="wrapper"
+        class="flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl"
+      >
+        <div
+          id="sidebar"
+          class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-blue-400 via-green-400 to-gray-200"
+        >
+          <div class="px-2 mb-12">
+            <!-- <img
+              src="./assets/"
+              alt="Profile Picture"
+              class="rounded-full w-48 mx-auto mb-2"
+            /> -->
+            <h1 class="text-center text-3xl font-semibold mb-2 hover:text-white transition duration-500 ease-in-out">Clint Le Grange</h1>
+            <h2 class="text-center text-xl font-light">Student & Aspiring Developer</h2>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Contact</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="/MyResume/assets/mail-outline.d2a90dfa.svg"
+                class="inline w-6 mr-4"
+                alt="Mail icon"
+              />
+              <a href="mailto:">clintlegrange@gmail.com</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="/MyResume/assets/call-outline.8e5cd959.svg"
+                class="inline w-6 mr-4"
+                alt="Phone icon"
+              />
+              <a href="tel:">07898784359</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="/MyResume/assets/home-outline.8a86be06.svg"
+                class="inline w-6 pb-1 mr-4"
+                alt="House icon"
+              />
+              <div>
+                <p>Huntingdon,</p>
+                <p>Cambridgeshire</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Personal</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="/MyResume/assets/egg-outline.2487a4a9.svg"
+                class="inline w-6 mr-4"
+                alt="Egg Icon"
+              />
+              <span>Born on 20th of Jan 2006</span>
+            </div>
+          </div>
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">On the Web</h2>
+            <div class="flex items-center my-3">
+              <img
+                src="/MyResume/assets/logo-github.e5a3483e.svg"
+                class="inline w-6 mr-4"
+                alt="GitHub Logo"
+              />
+              <a class="text-black hover:text-white transition duration-500 ease-in-out " href="https://github.com/SPARTAN-042" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="/MyResume/assets/logo-stackoverflow.e47dbd23.svg"
+                class="inline w-6 mr-4"
+                alt="Stack Overflow Logo"
+              />
+              <a class="text-black hover:text-white transition duration-500 ease-in-out " href="https://stackoverflow.com/users/18312156/kevlar" target="_blank" rel="noopener noreferrer"
+                >StackOverflow</a
+              >
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="/MyResume/assets/logo-linkedin.cb874d74.svg"
+                class="inline w-6 mr-4"
+                alt="LinkedIn Logo "
+              />
+              <a class="text-black hover:text-white transition duration-500 ease-in-out " href="https://www.linkedin.com/in/clint-le-grange-283134229" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            <div class="flex items-center my-3">
+              <img
+                src="/MyResume/assets/logo-codepen.eaba39a9.svg"
+                class="inline w-6 mr-4"
+                alt="CodePen Logo"
+              />
+              <a class="text-black hover:text-white transition duration-500 ease-in-out " href="https://codepen.io/Spartan042" target="_blank" rel="noopener noreferrer">CodePen</a>
+            </div>
+            <!-- <div class="flex items-center my-3">
+              <img
+                src="./assets/globe-outline.svg"
+                class="inline w-6 mr-4"
+                alt="Globe icon"
+              />
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Portfolio</a
+              >
+            </div> -->
+          </div>
+
+          <!-- <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Skills & Tools</h2>
+            <ul class="list-none">
+              <li>
+                <label for="js-skill"></label>
+                <progress id="js-skill" max="100" value="70"></progress>
+              </li>
+              <li>
+                <label for="vue-skill"></label>
+                <progress id="vue-skill" max="100" value="80"></progress>
+              </li>
+              <li>
+                <label for="react-skill"></label>
+                <progress id="react-skill" max="100" value="66"></progress>
+              </li>
+              <li>
+                <label for="nextjs-skill"></label>
+                <progress id="nextjs-skill" max="100" value="72"></progress>
+              </li>
+              <li>
+                <label for="eleventy-skill"></label>
+                <progress id="eleventy-skill" max="100" value="66"></progress>
+              </li>
+              <li>
+                <label for="node-skill"></label>
+                <progress id="node-skill" max="100" value="45"></progress>
+              </li>
+              <li>
+                <label for="css-skill"></label>
+                <progress id="css-skill" max="100" value="75"></progress>
+              </li>
+              <li>
+                <label for="design-skill"></label>
+                <progress id="design-skill" max="100" value="62"></progress>
+              </li>
+            </ul>
+          </div> -->
+
+          <div class="font-light text-lg px-2 mb-12">
+            <h2 class="text-xl font-semibold mb-4">Education</h2>
+            <h3 class="font-semibold">GCSE's | 2018 - 2022 St Peter's School</h3>
+            <p class="italic">9 GCSE's at grade A-C, including Maths and English</p>
+          </div>
+
+        </div>
+        <div class="content w-full p-12">
+          <div id="profile" class="prose">
+            <h2 class="section-headline">Profile</h2>
+            <p>
+              Effective student committed to learning, 
+              developing skills in Computer Science and 
+              related fields as well as engaging in team contribution. 
+              Self-directed and energetic with strong performance 
+              in both autonomous or collaborative environments working 
+              independently and collaborating with others on group projects.
+            </p>
+            <p>
+              I am highly motivated to continue my journey in programming
+              and expand my knowledge of technologies and further my understanding
+              of computing.
+            </p>
+          </div>
+          <hr class="mt-8 mb-12" />
+          <div id="projects" class="prose">
+            <h2 class="section-headline">Expand my skills</h2>
+            <div class="mb-16">
+              <h4 id="expand-knowledge-headline">
+                I'd like to expand my skills and knowledge in several fields
+              </h4>
+              <h3>Frontend:</h3>
+              <ul>
+                <li></li>
+                <li>Frameworks & Libraries - Angular, React, Vue</li>
+                <li>More in depth knowlegde of JS, including frameworks</li>
+                <li>Understanding HTTP for frontend to backend communication</li>
+                <li>Design tools - Figma</li>
+              </ul>
+              <br>
+              <h3>Backend:</h3>
+              <ul>
+                <li>Functional programming in Java</li>
+                <li>Procedural programming - learn C++</li>
+                <li>More interaction with Databases - MySQL, MongoDB, Postgresql</li>
+                <li>Spring Framework</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer
+      class="mt-12 text-center flex justify-center flex-col md:flex-row mx-12"
+    >
+    </footer>
+  </body>
+</html>
